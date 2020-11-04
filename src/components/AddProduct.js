@@ -18,7 +18,7 @@ export default function AddProduct({ setAddProduct }) {
     }
 
     useEffect(() => {
-        register('description', { required: true })
+        register('description'/*, { required: true }*/)
     })
 
     return (
